@@ -1,0 +1,183 @@
+/* base styles */
+
+body {
+  font-family: 'Noticia Text', serif;
+  color: #ffffff;
+  background-color: black;
+}
+
+/* grid */
+.nav-background {
+  background-color: black;
+  height: 100px;
+}
+
+.nav-half {
+  width: 700px;
+  float: left;
+}
+
+.full-width {
+  width: 1400px;
+}
+
+.half-width {
+  width: 685px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.third-width {
+  width: 466px;
+  float: left;
+  margin: 0 auto;
+}
+/* header */
+
+header {
+  height: 700px;
+  background: url('../img/hero-background.png');
+  background-size: cover;
+}
+
+header h1 {
+  padding-top: 175px;
+  padding-left: 35px;
+  font-size: 80px;
+}
+
+header h1 span {
+  color: #0b1414;
+}
+
+#top-nav img {
+  align-items: center;
+}
+
+nav ul li {
+  font-family: 'Noticia Text', serif;
+  font-size: 30px;
+  display: inline-block;
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+  text-indent: 15px;
+  padding-top: 15px;
+  padding-left: 60px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+/* portfolio */
+
+#portfolio {
+  margin-bottom: 30px;
+}
+
+#portfolio h1 {
+  text-align: center;
+  color: #468282;
+  margin: 25px;
+}
+
+#rogue-pic {
+  float: left;
+  text-align: right;
+}
+
+#rogue-about {
+  float: right;
+  height: 352px;
+}
+
+#jubilee-about  {
+  clear: both;
+  height: 352px;
+  text-align: right;
+}
+
+#jubilee-pic {
+  float: right;
+}
+
+#manifesto-pic {
+  float: left;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+#manifesto-about {
+  float: right;
+  height: 352px;
+  margin-bottom: 30px;
+}
+
+/* about me */
+
+#about-me {
+  background: url(../img/about-me.png);
+  background-size: cover;
+  height: 550px;
+  clear: both;
+}
+
+#about-me h1 {
+  text-align: center;
+  color: #468282;
+}
+
+#about-me p {
+  font-size: 20px;
+  color: black;
+  padding-left: 50px;
+  line-height: 32px;
+}
+
+/* contact */
+
+#contact {
+  text-align: center;
+  clear: both;
+}
+
+#hire-me p {
+  color: #ffffff;
+}
+
+#hire-me p a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#follow-me h3 {
+  text-indent: 55px;
+}
+
+#follow-me ul li {
+  display: inline-block;
+  text-indent: 5px;
+}
+
+#follow-me ul li a {
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* footer */
+
+footer {
+  margin-top: 100px;
+  clear: both;
+}
+
+footer p {
+    text-align: center;
+  text-indent: 55px;
+}
