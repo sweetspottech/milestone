@@ -9,7 +9,9 @@ body {
 /* grid */
 .nav-background {
   background-color: black;
-  height: 100px;
+  height: 110px;
+  width: 1450px;
+  margin: 0 auto;
 }
 
 .nav-half {
@@ -129,6 +131,7 @@ nav ul li a {
 #about-me h1 {
   text-align: center;
   color: #468282;
+  padding-top: 20px;
 }
 
 #about-me p {
@@ -145,11 +148,11 @@ nav ul li a {
   clear: both;
 }
 
-#hire-me p {
+#contact p {
   color: #ffffff;
 }
 
-#hire-me p a {
+#contact p a {
   text-decoration: none;
   color: #ffffff;
 }
